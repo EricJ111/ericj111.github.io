@@ -16,6 +16,6 @@ export default (phase, { defaultConfig }) => {
       loader: "akamai",
       path: "",
     },
-    assetPrefix: "./",
+    assetPrefix: "/",
   };
 };
