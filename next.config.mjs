@@ -13,7 +13,7 @@ export default (phase, { defaultConfig }) => {
     /* config options for all phases except development here */
     output: "export",
     basePath: "/ericj111.github.io",
-    assetPrefix: isProd ? "ericj111.github.io" : undefined,
+    assetPrefix: "/ericj111.github.io/",
     images: {
       unoptimized: true,
     },
