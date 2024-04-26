@@ -12,9 +12,10 @@ export default (phase, { defaultConfig }) => {
   return {
     /* config options for all phases except development here */
     output: "export",
-    basePath: "/ericj111.github.io",
     images: {
-      unoptimized: true,
+      loader: "akamai",
+      path: "",
     },
+    assetPrefix: "./",
   };
 };
