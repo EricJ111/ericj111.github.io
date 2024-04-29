@@ -12,7 +12,6 @@ export default (phase, { defaultConfig }) => {
   return {
     /* config options for all phases except development here */
     output: "export",
-    basePath: "/ericj111.github.io",
     images: {
       loader: "akamai",
       path: "",
