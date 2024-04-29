@@ -20,7 +20,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center">
             <Image
-              src={`/rach.png`}
+              src={`${prefix}/rach.png`}
               alt="portfolio image"
               className="w-2/3 rounded-lg"
               width={5000}

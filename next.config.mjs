@@ -14,8 +14,7 @@ export default (phase, { defaultConfig }) => {
     output: "export",
     basePath: "/ericj111.github.io",
     images: {
-      loader: "akamai",
-      path: "/ericj111.github.io/_next/image",
+      unoptimized: true,
     },
     assetPrefix: "/",
   };
